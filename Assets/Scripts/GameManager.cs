@@ -26,10 +26,12 @@ public class GameManager : MonoBehaviour
         // Init GameManager
         if (Instance == null)
         {
+            print("Create GameManager");
             Instance = this;
         }
         else
         {
+            print("Destroy GameManager");
             Destroy(gameObject); // dont allow 2 GameManager
         }
 
