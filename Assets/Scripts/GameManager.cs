@@ -49,7 +49,6 @@ public class GameManager : MonoBehaviour
         //{
         //    print("Child Point: " + obj.position);
         //}
-
         //print("Point Spawn: " + pointSpawn);
 
         // Spawn Ball

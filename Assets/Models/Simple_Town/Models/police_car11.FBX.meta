@@ -1,48 +1,42 @@
 fileFormatVersion: 2
-guid: 202c6783d85e09a4eb569d1ce5a1fdae
+guid: d2139317ca2937949bb48c6c5ea990ad
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Object018
-    100004: Object019
-    100006: Object020
-    100008: Object021
-    100010: Object022
-    400000: //RootNode
-    400002: Object018
-    400004: Object019
-    400006: Object020
-    400008: Object021
-    400010: Object022
-    2300000: Object018
-    2300002: Object019
-    2300004: Object020
-    2300006: Object021
-    2300008: Object022
-    2300010: //RootNode
-    3300000: Object018
-    3300002: Object019
-    3300004: Object020
-    3300006: Object021
-    3300008: Object022
-    3300010: //RootNode
-    4300000: Object018
-    4300002: Object019
-    4300004: Object020
-    4300006: Object021
-    4300008: Object022
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: 2100000, guid: b8ec6637df3ad2543a6ef85e65d6608b, type: 2}
+    100000: Object005
+    100002: Object015
+    100004: Object016
+    100006: Object017
+    100008: police_car
+    100010: //RootNode
+    400000: Object005
+    400002: Object015
+    400004: Object016
+    400006: Object017
+    400008: police_car
+    400010: //RootNode
+    2100000: No Name
+    2300000: Object005
+    2300002: Object015
+    2300004: Object016
+    2300006: Object017
+    2300008: police_car
+    3300000: Object005
+    3300002: Object015
+    3300004: Object016
+    3300006: Object017
+    3300008: police_car
+    4300000: police_car
+    4300002: Object005
+    4300004: Object015
+    4300006: Object016
+    4300008: Object017
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -71,10 +65,10 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    importVisibility: 0
+    importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
+    importCameras: 1
+    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -82,7 +76,7 @@ ModelImporter:
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    indexFormat: 1
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -94,7 +88,7 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
-    normalCalculationMode: 0
+    normalCalculationMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:

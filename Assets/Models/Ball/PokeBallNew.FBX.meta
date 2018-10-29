@@ -1,48 +1,39 @@
 fileFormatVersion: 2
-guid: 202c6783d85e09a4eb569d1ce5a1fdae
+guid: 7deedbd792fe71741ad86ee0ea809da8
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Object018
-    100004: Object019
-    100006: Object020
-    100008: Object021
-    100010: Object022
+    100002: Sphere
     400000: //RootNode
-    400002: Object018
-    400004: Object019
-    400006: Object020
-    400008: Object021
-    400010: Object022
-    2300000: Object018
-    2300002: Object019
-    2300004: Object020
-    2300006: Object021
-    2300008: Object022
-    2300010: //RootNode
-    3300000: Object018
-    3300002: Object019
-    3300004: Object020
-    3300006: Object021
-    3300008: Object022
-    3300010: //RootNode
-    4300000: Object018
-    4300002: Object019
-    4300004: Object020
-    4300006: Object021
-    4300008: Object022
+    400002: Sphere
+    2100000: 02 - Default
+    2100002: 03 - Default
+    2100004: 01 - Default
+    2300000: Sphere
+    3300000: Sphere
+    4300000: Sphere
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: 2100000, guid: b8ec6637df3ad2543a6ef85e65d6608b, type: 2}
+      name: 01 - Default
+    second: {fileID: 2100000, guid: 735b92479a9988446ac33d46178a884b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: c838e6b7dfe881e4ba0b50288432e359, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 - Default
+    second: {fileID: 2100000, guid: 71484dcd23b22d14fb76a65fa85eacf2, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -71,10 +62,10 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    importVisibility: 0
+    importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
+    importCameras: 1
+    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -82,7 +73,7 @@ ModelImporter:
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    indexFormat: 1
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -94,7 +85,7 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
-    normalCalculationMode: 0
+    normalCalculationMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
