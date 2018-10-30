@@ -54,7 +54,7 @@ public class GameManager : MonoBehaviour
         // Spawn Ball
         for (int i = 0; i < 1; i++)
         {
-            int ranBall = Random.Range(0, ballPrefab.Length);
+            int ranBall = 18;//Random.Range(0, ballPrefab.Length);
             GameObject gameobj = Instantiate(ballPrefab[ranBall], Vector3.zero, Quaternion.identity) as GameObject;
             gameobj.GetComponent<BallController>().SetName(i);
 
