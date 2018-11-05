@@ -15,12 +15,11 @@ public class BallController : MonoBehaviour
     private Rigidbody ballRigi;
 
     private CameraController camController;
+    private GameObject ballObj;
 
     // Use this for initialization
     void Start()
     {
-        ballRigi = GetComponent<Rigidbody>();
-
         GameObject gameObj = GameObject.Find("Main Camera");
         ballCamera = gameObj.GetComponentInChildren<Camera>();
         camController = ballCamera.GetComponent<CameraController>();
@@ -30,9 +29,12 @@ public class BallController : MonoBehaviour
 
         ResetGame();
 
-        Mesh mesh = GetComponent<MeshFilter>().sharedMesh;
+        ballObj = gameObject.transform.GetChild(0).gameObject;
+        Mesh mesh = ballObj.GetComponent<MeshFilter>().sharedMesh;
         float volume = VolumeOfMesh(mesh);
         Debug.Log("The volume of 'Ball' is " + volume + " cube units.");
+
+        ballRigi = ballObj.GetComponent<Rigidbody>();
 
         //StartCoroutine(TestChangeBallSize());
     }
@@ -76,9 +78,23 @@ public class BallController : MonoBehaviour
             //Vector3 pos = contact.point;
             //Instantiate(explosionPrefab, pos, rot);
 
-            Mesh meshB = GetComponent<MeshFilter>().sharedMesh;
-            float volumeB = VolumeOfMesh(meshB);
-            Debug.Log("The volume of 'Ball' is " + volumeB + " cube units.");
+            print(gameObject.transform.childCount);
+            for (int i = 0; i < gameObject.transform.childCount - 1; i++)
+            {
+                Transform ballTran = gameObject.transform.GetChild(i).transform;
+                print(ballTran.name);
+                if (ballTran.name == "Player")
+                {
+                    Mesh meshB = ballTran.GetComponent<MeshFilter>().sharedMesh;
+                    float volumeB = VolumeOfMesh(meshB);
+                    Debug.Log("The volume of 'Ball' is " + volumeB + " cube units.");
+                    break;
+                }
+            }
+            //GameObject ball = gameObject.transform.GetChild(0).gameObject;
+            //Mesh meshB = ball.GetComponent<MeshFilter>().sharedMesh;
+            //float volumeB = VolumeOfMesh(meshB);
+            //Debug.Log("The volume of 'Ball' is " + volumeB + " cube units.");
 
             Mesh mesh = colObj.gameObject.GetComponent<MeshFilter>().sharedMesh;
             float volume = VolumeOfMesh(mesh);
