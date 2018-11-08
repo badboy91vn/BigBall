@@ -15,7 +15,6 @@ public class BallController : MonoBehaviour
     private Rigidbody ballRigi;
 
     private CameraController camController;
-    private GameObject ballObj;
 
     // Use this for initialization
     void Start()
@@ -29,10 +28,9 @@ public class BallController : MonoBehaviour
 
         ResetGame();
 
-        //ballObj = gameObject.transform.GetChild(0).gameObject;
-        Mesh mesh = gameObject.GetComponent<MeshFilter>().sharedMesh;
-        float volume = VolumeOfMesh(mesh);
-        Debug.Log("The volume of 'Ball' is " + volume + " cube units.");
+        //Mesh mesh = gameObject.GetComponent<MeshFilter>().sharedMesh;
+        //float volume = VolumeOfMesh(mesh);
+        //Debug.Log("The volume of 'Ball' is " + volume + " cube units.");
 
         ballRigi = gameObject.GetComponent<Rigidbody>();
 
@@ -70,21 +68,22 @@ public class BallController : MonoBehaviour
     {
         if (colObj.gameObject.tag == "Enemy")
         {
-            Mesh meshB = gameObject.GetComponent<MeshFilter>().sharedMesh;
-            float volumeB = VolumeOfMesh(meshB);
-            Debug.Log("The volume of 'Ball' is " + volumeB + " cube units.");
+            //Mesh meshB = gameObject.GetComponent<MeshFilter>().sharedMesh;
+            //float volumeB = VolumeOfMesh(meshB);
+            //Debug.Log("The volume of 'Ball' is " + volumeB + " cube units.");
 
-            Mesh mesh = colObj.gameObject.GetComponent<MeshFilter>().sharedMesh;
-            float volume = VolumeOfMesh(mesh);
-            Debug.Log("The volume of '" + colObj.gameObject.name + "' is " + volume + " units.");
+            //Mesh mesh = colObj.gameObject.GetComponent<MeshFilter>().sharedMesh;
+            //float volume = VolumeOfMesh(mesh);
+            //Debug.Log("The volume of '" + colObj.gameObject.name + "' is " + volume + " units.");
 
-            //Vector3 colObjSize = Vector3.Scale(colObj.transform.localScale, colObj.gameObject.GetComponent<MeshFilter>().mesh.bounds.size);
-            //print(colObj.gameObject.name + " : " + colObjSize);
+            Vector3 ballSize = gameObject.GetComponent<Collider>().bounds.size;
+            float vBall = 4.2f * Mathf.Pow((ballSize.y / 2), 3);
 
-            //print("TEst: " + GetComponent<MeshFilter>().mesh.bounds.size * transform.localScale.x);
+            Vector3 objSize = colObj.gameObject.GetComponent<Collider>().bounds.size;
+            float vObj = objSize.x * objSize.y * objSize.z;
 
-            //Vector3 ball = Vector3.Scale(transform.localScale, GetComponent<MeshFilter>().mesh.bounds.size);
-            //print("Ball : " + ball);
+            print("Ball: " + vBall + " | Obj: "+ vObj + " | Size:" + (vBall / vObj)*100 );
+
 
             // Change Ball Size
             ChangeBallSize();
