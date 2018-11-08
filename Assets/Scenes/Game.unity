@@ -255,7 +255,7 @@ GameObject:
   - component: {fileID: 5806213}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (48)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -521,7 +521,7 @@ GameObject:
   - component: {fileID: 11798683}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (30)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1115,7 +1115,7 @@ GameObject:
   - component: {fileID: 31191838}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (50)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1222,7 +1222,7 @@ GameObject:
   - component: {fileID: 31971651}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (29)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1392,7 +1392,7 @@ GameObject:
   - component: {fileID: 33274145}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (35)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1634,7 +1634,7 @@ GameObject:
   - component: {fileID: 39802680}
   m_Layer: 0
   m_Name: Tree_Asian_Shaped_01 1 (13)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2390,7 +2390,7 @@ GameObject:
   - component: {fileID: 54295388}
   m_Layer: 0
   m_Name: Tree_Common_01 1 (5)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2806,7 +2806,7 @@ GameObject:
   - component: {fileID: 62224482}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (6)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3354,7 +3354,7 @@ GameObject:
   - component: {fileID: 73580604}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (54)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4275,7 +4275,7 @@ GameObject:
   - component: {fileID: 89591641}
   m_Layer: 0
   m_Name: Tree_Asian_Shaped_01 1 (12)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4413,7 +4413,7 @@ GameObject:
   - component: {fileID: 94144411}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (62)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4809,7 +4809,7 @@ GameObject:
   - component: {fileID: 98106994}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (67)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5075,7 +5075,7 @@ GameObject:
   - component: {fileID: 105297145}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (35)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5667,7 +5667,7 @@ GameObject:
   - component: {fileID: 118337850}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (62)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5806,7 +5806,7 @@ GameObject:
   - component: {fileID: 119140110}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (42)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6055,7 +6055,7 @@ GameObject:
   - component: {fileID: 126870006}
   m_Layer: 0
   m_Name: Rock_Medium_02 1 (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6310,7 +6310,7 @@ GameObject:
   - component: {fileID: 134580238}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (15)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6478,7 +6478,7 @@ GameObject:
   - component: {fileID: 136250176}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (34)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7194,7 +7194,7 @@ GameObject:
   - component: {fileID: 156145367}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (29)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7455,7 +7455,7 @@ GameObject:
   - component: {fileID: 161226138}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (40)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7563,7 +7563,7 @@ GameObject:
   - component: {fileID: 161545267}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (38)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7668,7 +7668,7 @@ GameObject:
   - component: {fileID: 162701635}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (59)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8130,7 +8130,7 @@ GameObject:
   - component: {fileID: 167997712}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (19)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8237,7 +8237,7 @@ GameObject:
   - component: {fileID: 168907223}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (44)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8866,7 +8866,7 @@ GameObject:
   - component: {fileID: 176034875}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (33)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9112,7 +9112,7 @@ GameObject:
   - component: {fileID: 181868568}
   m_Layer: 0
   m_Name: Rock_Medium_02 1 (13)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10168,7 +10168,7 @@ GameObject:
   - component: {fileID: 198893347}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (40)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10689,7 +10689,7 @@ GameObject:
   - component: {fileID: 207464466}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11103,7 +11103,7 @@ GameObject:
   - component: {fileID: 211115031}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (36)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11211,7 +11211,7 @@ GameObject:
   - component: {fileID: 212544769}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (7)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11901,7 +11901,7 @@ GameObject:
   - component: {fileID: 231099814}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (71)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12071,7 +12071,7 @@ GameObject:
   - component: {fileID: 232205020}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (16)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12989,7 +12989,7 @@ GameObject:
   - component: {fileID: 246772178}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (14)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13160,7 +13160,7 @@ GameObject:
   - component: {fileID: 251928947}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (42)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13265,7 +13265,7 @@ GameObject:
   - component: {fileID: 252696679}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (25)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13872,7 +13872,7 @@ GameObject:
   - component: {fileID: 261195516}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (69)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14329,7 +14329,7 @@ GameObject:
   - component: {fileID: 272591806}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14817,7 +14817,7 @@ GameObject:
   - component: {fileID: 291397237}
   m_Layer: 0
   m_Name: Tree_Asian_Shaped_01 1 (8)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14923,7 +14923,7 @@ GameObject:
   - component: {fileID: 295277261}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (30)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15380,7 +15380,7 @@ GameObject:
   - component: {fileID: 303052405}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (45)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15603,7 +15603,7 @@ GameObject:
   - component: {fileID: 305374304}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (10)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15711,7 +15711,7 @@ GameObject:
   - component: {fileID: 305631363}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (27)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16214,7 +16214,7 @@ GameObject:
   - component: {fileID: 315187322}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (23)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16469,7 +16469,7 @@ GameObject:
   - component: {fileID: 318482369}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (9)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17818,7 +17818,7 @@ GameObject:
   - component: {fileID: 350590929}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (66)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18340,7 +18340,7 @@ GameObject:
   - component: {fileID: 352930880}
   m_Layer: 0
   m_Name: Rock_Medium_02 1 (12)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18532,7 +18532,7 @@ GameObject:
   - component: {fileID: 356915396}
   m_Layer: 0
   m_Name: Tree_Asian_Shaped_01 1 (7)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18733,7 +18733,7 @@ GameObject:
   - component: {fileID: 357849120}
   m_Layer: 0
   m_Name: Rock_Medium_02 1 (6)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18870,7 +18870,7 @@ GameObject:
   - component: {fileID: 361996235}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (38)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18978,7 +18978,7 @@ GameObject:
   - component: {fileID: 362683440}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (8)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19085,7 +19085,7 @@ GameObject:
   - component: {fileID: 363114321}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (58)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19190,7 +19190,7 @@ GameObject:
   - component: {fileID: 365836822}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (30)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19794,7 +19794,7 @@ GameObject:
   - component: {fileID: 378579560}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (32)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20200,7 +20200,7 @@ GameObject:
   - component: {fileID: 390349094}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (78)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20621,7 +20621,7 @@ GameObject:
   - component: {fileID: 398484993}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (65)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20780,7 +20780,7 @@ GameObject:
   - component: {fileID: 400651397}
   m_Layer: 0
   m_Name: Tree_Common_01 1 (12)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20949,7 +20949,7 @@ GameObject:
   - component: {fileID: 405173604}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (46)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21213,7 +21213,7 @@ GameObject:
   - component: {fileID: 405733086}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (74)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21353,7 +21353,7 @@ GameObject:
   - component: {fileID: 410231946}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (19)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21458,7 +21458,7 @@ GameObject:
   - component: {fileID: 411895901}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (72)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21955,7 +21955,7 @@ GameObject:
   - component: {fileID: 414841232}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (59)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22241,7 +22241,7 @@ GameObject:
   - component: {fileID: 417087587}
   m_Layer: 0
   m_Name: Rock_Medium_02 1 (8)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22646,7 +22646,7 @@ GameObject:
   - component: {fileID: 428676684}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (46)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24146,7 +24146,7 @@ GameObject:
   - component: {fileID: 463328173}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (6)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25494,7 +25494,7 @@ GameObject:
   - component: {fileID: 487200018}
   m_Layer: 0
   m_Name: Tree_Asian_Shaped_01 1 (5)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26309,7 +26309,7 @@ GameObject:
   - component: {fileID: 508035505}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (52)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27532,7 +27532,7 @@ GameObject:
   - component: {fileID: 529126737}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (5)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27640,7 +27640,7 @@ GameObject:
   - component: {fileID: 530765023}
   m_Layer: 0
   m_Name: Rock_Medium_02 1 (18)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27745,7 +27745,7 @@ GameObject:
   - component: {fileID: 531330205}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (44)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28218,7 +28218,7 @@ GameObject:
   - component: {fileID: 548897331}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (21)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28598,7 +28598,7 @@ GameObject:
   - component: {fileID: 555715329}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (65)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28813,7 +28813,7 @@ GameObject:
   - component: {fileID: 558506917}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (53)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29747,7 +29747,7 @@ GameObject:
   - component: {fileID: 572891480}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (17)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29918,7 +29918,7 @@ GameObject:
   - component: {fileID: 576083744}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (33)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30247,7 +30247,7 @@ GameObject:
   - component: {fileID: 580165962}
   m_Layer: 0
   m_Name: Tree_Common_01 1 (10)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30353,7 +30353,7 @@ GameObject:
   - component: {fileID: 580168050}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (10)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30490,7 +30490,7 @@ GameObject:
   - component: {fileID: 580985883}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (18)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31225,7 +31225,7 @@ GameObject:
   - component: {fileID: 592359360}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (70)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31427,7 +31427,7 @@ GameObject:
   - component: {fileID: 599440954}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (26)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32097,7 +32097,7 @@ GameObject:
   - component: {fileID: 611426767}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (51)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32761,7 +32761,7 @@ GameObject:
   - component: {fileID: 622422899}
   m_Layer: 0
   m_Name: Rock_Medium_02 1 (17)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32930,7 +32930,7 @@ GameObject:
   - component: {fileID: 625686230}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (31)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33035,7 +33035,7 @@ GameObject:
   - component: {fileID: 627108206}
   m_Layer: 0
   m_Name: Tree_Common_01 1 (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33141,7 +33141,7 @@ GameObject:
   - component: {fileID: 627623847}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (26)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33471,7 +33471,7 @@ GameObject:
   - component: {fileID: 633492817}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (31)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33917,7 +33917,7 @@ GameObject:
   - component: {fileID: 644376509}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (44)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34263,7 +34263,7 @@ GameObject:
   - component: {fileID: 647586787}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (55)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34551,7 +34551,7 @@ GameObject:
   - component: {fileID: 654401035}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (39)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34890,7 +34890,7 @@ GameObject:
   - component: {fileID: 662310414}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (56)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35500,7 +35500,7 @@ GameObject:
   - component: {fileID: 676987056}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (18)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36248,7 +36248,7 @@ GameObject:
   - component: {fileID: 688795278}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (47)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36511,7 +36511,7 @@ GameObject:
   - component: {fileID: 692247316}
   m_Layer: 0
   m_Name: Tree_Common_01 1 (9)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36677,7 +36677,7 @@ GameObject:
   - component: {fileID: 696550990}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (48)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36785,7 +36785,7 @@ GameObject:
   - component: {fileID: 698922516}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (23)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37326,7 +37326,7 @@ GameObject:
   - component: {fileID: 719758568}
   m_Layer: 0
   m_Name: Rock_Medium_02 1 (16)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37431,7 +37431,7 @@ GameObject:
   - component: {fileID: 721060505}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (80)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37602,7 +37602,7 @@ GameObject:
   - component: {fileID: 722643632}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (60)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38588,7 +38588,7 @@ GameObject:
   - component: {fileID: 739516979}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (49)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38810,7 +38810,7 @@ GameObject:
   - component: {fileID: 741184665}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (32)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38973,7 +38973,7 @@ GameObject:
   - component: {fileID: 751747340}
   m_Layer: 0
   m_Name: Tree_Asian_Shaped_01 1 (9)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39142,7 +39142,7 @@ GameObject:
   - component: {fileID: 753936171}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (19)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39504,7 +39504,7 @@ GameObject:
   - component: {fileID: 762651058}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (73)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40199,7 +40199,7 @@ GameObject:
   - component: {fileID: 777074323}
   m_Layer: 0
   m_Name: Tree_Asian_Shaped_01 1 (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41129,7 +41129,7 @@ GameObject:
   - component: {fileID: 803061970}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (61)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41321,7 +41321,7 @@ GameObject:
   - component: {fileID: 805035542}
   m_Layer: 0
   m_Name: Plant_Brush_04 1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42569,7 +42569,7 @@ GameObject:
   - component: {fileID: 831410426}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43726,7 +43726,7 @@ GameObject:
   - component: {fileID: 861014767}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (4)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44036,7 +44036,7 @@ GameObject:
   - component: {fileID: 873254693}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (55)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44236,7 +44236,7 @@ GameObject:
   - component: {fileID: 878754208}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (17)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44471,7 +44471,7 @@ GameObject:
   - component: {fileID: 887717781}
   m_Layer: 0
   m_Name: Tree_Common_01 1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44989,7 +44989,7 @@ GameObject:
   - component: {fileID: 899413975}
   m_Layer: 0
   m_Name: Tree_Common_01 1 (8)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45095,7 +45095,7 @@ GameObject:
   - component: {fileID: 900685833}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (50)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45656,7 +45656,7 @@ GameObject:
   - component: {fileID: 909260951}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (37)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45848,7 +45848,7 @@ GameObject:
   - component: {fileID: 914409067}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (50)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46609,7 +46609,7 @@ GameObject:
   - component: {fileID: 925726876}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (11)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47419,7 +47419,7 @@ GameObject:
   - component: {fileID: 944086424}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (57)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47589,7 +47589,7 @@ GameObject:
   - component: {fileID: 944285635}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (47)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47905,7 +47905,7 @@ GameObject:
   - component: {fileID: 949901525}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (63)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49012,7 +49012,7 @@ GameObject:
   - component: {fileID: 978071538}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (68)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49223,7 +49223,7 @@ GameObject:
   - component: {fileID: 978891141}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (28)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49588,7 +49588,7 @@ GameObject:
   - component: {fileID: 996018957}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (55)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49811,7 +49811,7 @@ GameObject:
   - component: {fileID: 998294859}
   m_Layer: 0
   m_Name: Tree_Common_01 1 (7)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50183,7 +50183,7 @@ GameObject:
   - component: {fileID: 1002524278}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (28)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50946,7 +50946,7 @@ GameObject:
   - component: {fileID: 1015738873}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (4)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51054,7 +51054,7 @@ GameObject:
   - component: {fileID: 1016704402}
   m_Layer: 0
   m_Name: Tree_Common_01 1 (6)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51763,7 +51763,7 @@ GameObject:
   - component: {fileID: 1035650809}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (8)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52300,7 +52300,7 @@ GameObject:
   - component: {fileID: 1045428722}
   m_Layer: 0
   m_Name: Tree_Asian_Shaped_01 1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52910,7 +52910,7 @@ GameObject:
   - component: {fileID: 1059620307}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (13)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54452,7 +54452,7 @@ GameObject:
   - component: {fileID: 1104018793}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57538,7 +57538,7 @@ GameObject:
   - component: {fileID: 1161420855}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (17)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57675,7 +57675,7 @@ GameObject:
   - component: {fileID: 1164353587}
   m_Layer: 0
   m_Name: Tree_Common_01 1 (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58047,7 +58047,7 @@ GameObject:
   - component: {fileID: 1169837790}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (64)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58782,7 +58782,7 @@ GameObject:
   - component: {fileID: 1183850709}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (35)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58982,7 +58982,7 @@ GameObject:
   - component: {fileID: 1185393699}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (49)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59295,7 +59295,7 @@ GameObject:
   - component: {fileID: 1188586282}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (57)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59724,7 +59724,7 @@ GameObject:
   - component: {fileID: 1193862544}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (22)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60271,7 +60271,7 @@ GameObject:
   - component: {fileID: 1201035899}
   m_Layer: 0
   m_Name: Tree_Asian_Shaped_01 1 (6)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60495,7 +60495,7 @@ GameObject:
   - component: {fileID: 1203774032}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (27)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60959,7 +60959,7 @@ GameObject:
   - component: {fileID: 1206619168}
   m_Layer: 0
   m_Name: Rock_Medium_02 1 (9)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61381,7 +61381,7 @@ GameObject:
   - component: {fileID: 1214188870}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (34)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61541,7 +61541,7 @@ GameObject:
   - component: {fileID: 1221022434}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (69)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63542,7 +63542,7 @@ GameObject:
   - component: {fileID: 1261032867}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64319,7 +64319,7 @@ GameObject:
   - component: {fileID: 1277467261}
   m_Layer: 0
   m_Name: Rock_Medium_02 1 (11)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65293,7 +65293,7 @@ GameObject:
   - component: {fileID: 1297594119}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (41)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65516,7 +65516,7 @@ GameObject:
   - component: {fileID: 1298246015}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (11)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65684,7 +65684,7 @@ GameObject:
   - component: {fileID: 1301670984}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (62)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66118,7 +66118,7 @@ GameObject:
   - component: {fileID: 1307067153}
   m_Layer: 0
   m_Name: Rock_Medium_02 1 (20)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66541,7 +66541,7 @@ GameObject:
   - component: {fileID: 1312157403}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (60)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66744,7 +66744,7 @@ GameObject:
   - component: {fileID: 1315914683}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (37)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67294,7 +67294,7 @@ GameObject:
   - component: {fileID: 1324038440}
   m_Layer: 0
   m_Name: Plant_Fern_01 1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67401,7 +67401,7 @@ GameObject:
   - component: {fileID: 1324366925}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (38)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68453,7 +68453,7 @@ GameObject:
   - component: {fileID: 1352558560}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (8)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68783,7 +68783,7 @@ GameObject:
   - component: {fileID: 1358177620}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (10)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68922,7 +68922,7 @@ GameObject:
   - component: {fileID: 1359656071}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (22)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69341,7 +69341,7 @@ GameObject:
   - component: {fileID: 1370139683}
   m_Layer: 0
   m_Name: Rock_Medium_02 1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70264,7 +70264,7 @@ GameObject:
   - component: {fileID: 1386967692}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (58)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70486,7 +70486,7 @@ GameObject:
   - component: {fileID: 1396539948}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (66)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71181,7 +71181,7 @@ GameObject:
   - component: {fileID: 1407014559}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (12)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71349,7 +71349,7 @@ GameObject:
   - component: {fileID: 1410079581}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (45)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71543,7 +71543,7 @@ GameObject:
   - component: {fileID: 1410615610}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (4)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71746,7 +71746,7 @@ GameObject:
   - component: {fileID: 1414580819}
   m_Layer: 0
   m_Name: Tree_Asian_Shaped_01 1 (10)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71988,7 +71988,7 @@ GameObject:
   - component: {fileID: 1415850847}
   m_Layer: 0
   m_Name: Tree_Common_01 1 (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72220,7 +72220,7 @@ GameObject:
   - component: {fileID: 1419694094}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (9)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72444,7 +72444,7 @@ GameObject:
   - component: {fileID: 1421747821}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (57)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72984,7 +72984,7 @@ GameObject:
   - component: {fileID: 1434797888}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (51)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73562,7 +73562,7 @@ GameObject:
   - component: {fileID: 1447528695}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (47)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74285,7 +74285,7 @@ GameObject:
   - component: {fileID: 1468470180}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (14)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74974,7 +74974,7 @@ GameObject:
   - component: {fileID: 1488253556}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (5)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76074,7 +76074,7 @@ GameObject:
   - component: {fileID: 1508804504}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (61)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76723,7 +76723,7 @@ GameObject:
   - component: {fileID: 1519946582}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (61)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77316,7 +77316,7 @@ GameObject:
   - component: {fileID: 1533147672}
   m_Layer: 0
   m_Name: Tree_Asian_Shaped_01 1 (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77462,7 +77462,7 @@ GameObject:
   - component: {fileID: 1534524918}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (16)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78339,7 +78339,7 @@ GameObject:
   - component: {fileID: 1567091977}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (27)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78700,7 +78700,7 @@ GameObject:
   - component: {fileID: 1572174129}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (13)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79224,7 +79224,7 @@ GameObject:
   - component: {fileID: 1581214886}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (25)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79803,7 +79803,7 @@ GameObject:
   - component: {fileID: 1591948938}
   m_Layer: 0
   m_Name: Rock_Medium_02 1 (19)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79908,7 +79908,7 @@ GameObject:
   - component: {fileID: 1592242438}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (42)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80356,7 +80356,7 @@ GameObject:
   - component: {fileID: 1603634787}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (22)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80524,7 +80524,7 @@ GameObject:
   - component: {fileID: 1607729393}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (12)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80923,7 +80923,7 @@ GameObject:
   - component: {fileID: 1612562720}
   m_Layer: 0
   m_Name: Tree_Common_01 1 (11)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81029,7 +81029,7 @@ GameObject:
   - component: {fileID: 1613119948}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (68)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82546,7 +82546,7 @@ GameObject:
   - component: {fileID: 1647343616}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (45)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82711,7 +82711,7 @@ GameObject:
   - component: {fileID: 1654260974}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (32)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83959,7 +83959,7 @@ GameObject:
   - component: {fileID: 1665012960}
   m_Layer: 0
   m_Name: Tree_Asian_Shaped_01 1 (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84509,7 +84509,7 @@ GameObject:
   - component: {fileID: 1685824781}
   m_Layer: 0
   m_Name: Rock_Medium_02 1 (14)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84646,7 +84646,7 @@ GameObject:
   - component: {fileID: 1692046561}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (67)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84972,7 +84972,7 @@ GameObject:
   - component: {fileID: 1701111080}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (16)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85365,7 +85365,7 @@ GameObject:
   - component: {fileID: 1703734755}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (37)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86276,7 +86276,7 @@ GameObject:
   - component: {fileID: 1720290376}
   m_Layer: 0
   m_Name: Rock_Medium_02 1 (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86555,7 +86555,7 @@ GameObject:
   - component: {fileID: 1723737768}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (75)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88408,7 +88408,7 @@ GameObject:
   - component: {fileID: 1761614267}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (12)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88663,7 +88663,7 @@ GameObject:
   - component: {fileID: 1765112045}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (53)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88898,7 +88898,7 @@ GameObject:
   - component: {fileID: 1769144761}
   m_Layer: 0
   m_Name: Tree_Common_01 1 (4)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89159,7 +89159,7 @@ GameObject:
   - component: {fileID: 1771302479}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89362,7 +89362,7 @@ GameObject:
   - component: {fileID: 1773524596}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (20)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89564,7 +89564,7 @@ GameObject:
   - component: {fileID: 1775156678}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (9)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90095,7 +90095,7 @@ GameObject:
   - component: {fileID: 1781142887}
   m_Layer: 0
   m_Name: Rock_Medium_02 1 (21)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90200,7 +90200,7 @@ GameObject:
   - component: {fileID: 1781708044}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (7)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90496,7 +90496,7 @@ GameObject:
   - component: {fileID: 1783083402}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (56)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91227,7 +91227,7 @@ GameObject:
   - component: {fileID: 1797689195}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (18)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91332,7 +91332,7 @@ GameObject:
   - component: {fileID: 1797753839}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (58)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91495,7 +91495,7 @@ GameObject:
   - component: {fileID: 1800198823}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (36)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91914,7 +91914,7 @@ GameObject:
   - component: {fileID: 1815085842}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (51)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92116,7 +92116,7 @@ GameObject:
   - component: {fileID: 1819383664}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (54)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92406,7 +92406,7 @@ GameObject:
   - component: {fileID: 1829448850}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (34)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92608,7 +92608,7 @@ GameObject:
   - component: {fileID: 1836482630}
   m_Layer: 0
   m_Name: Rock_Medium_02 1 (15)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93710,7 +93710,7 @@ GameObject:
   - component: {fileID: 1852455146}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (41)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95139,7 +95139,7 @@ GameObject:
   - component: {fileID: 1871602252}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (33)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95394,7 +95394,7 @@ GameObject:
   - component: {fileID: 1874603003}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (24)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95531,7 +95531,7 @@ GameObject:
   - component: {fileID: 1878115019}
   m_Layer: 0
   m_Name: Rock_Medium_02 1 (7)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95636,7 +95636,7 @@ GameObject:
   - component: {fileID: 1881449648}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (24)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95776,7 +95776,7 @@ GameObject:
   - component: {fileID: 1883498053}
   m_Layer: 0
   m_Name: Rock_Medium_02 1 (4)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96170,7 +96170,7 @@ GameObject:
   - component: {fileID: 1891820366}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (31)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96894,7 +96894,7 @@ GameObject:
   - component: {fileID: 1908116279}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (54)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97816,7 +97816,7 @@ GameObject:
   - component: {fileID: 1938154354}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98451,7 +98451,7 @@ GameObject:
   - component: {fileID: 1946653758}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (20)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98742,7 +98742,7 @@ GameObject:
   - component: {fileID: 1952800279}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (59)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99277,7 +99277,7 @@ GameObject:
   - component: {fileID: 1960913721}
   m_Layer: 0
   m_Name: Rock_Medium_02 1 (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99696,7 +99696,7 @@ GameObject:
   - component: {fileID: 1962828679}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (15)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99913,7 +99913,7 @@ GameObject:
   - component: {fileID: 1968061707}
   m_Layer: 0
   m_Name: Rock_Medium_02 1 (10)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100018,7 +100018,7 @@ GameObject:
   - component: {fileID: 1969443679}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (20)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100594,7 +100594,7 @@ GameObject:
   - component: {fileID: 1975601085}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (43)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100702,7 +100702,7 @@ GameObject:
   - component: {fileID: 1979074266}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (63)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100810,7 +100810,7 @@ GameObject:
   - component: {fileID: 1983408861}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (79)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101162,7 +101162,7 @@ GameObject:
   - component: {fileID: 1985355253}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (52)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101475,7 +101475,7 @@ GameObject:
   - component: {fileID: 1985894484}
   m_Layer: 0
   m_Name: Tree_Asian_Shaped_01 1 (11)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101781,7 +101781,7 @@ GameObject:
   - component: {fileID: 1989296350}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (15)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101952,7 +101952,7 @@ GameObject:
   - component: {fileID: 1990160273}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (39)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102653,7 +102653,7 @@ GameObject:
   - component: {fileID: 1998562427}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (49)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103183,7 +103183,7 @@ GameObject:
   - component: {fileID: 2014152876}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (52)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103960,7 +103960,7 @@ GameObject:
   - component: {fileID: 2025461259}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (25)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105223,7 +105223,7 @@ GameObject:
   - component: {fileID: 2047361937}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (6)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105791,7 +105791,7 @@ GameObject:
   - component: {fileID: 2056330092}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (29)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105899,7 +105899,7 @@ GameObject:
   - component: {fileID: 2056398467}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (39)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106246,7 +106246,7 @@ GameObject:
   - component: {fileID: 2060113163}
   m_Layer: 0
   m_Name: Rock_Medium_02 1 (5)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106446,7 +106446,7 @@ GameObject:
   - component: {fileID: 2062195581}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (21)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106551,7 +106551,7 @@ GameObject:
   - component: {fileID: 2063012485}
   m_Layer: 0
   m_Name: Plant_Fern_01 1 (64)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106839,7 +106839,7 @@ GameObject:
   - component: {fileID: 2068915463}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108806,7 +108806,7 @@ GameObject:
   - component: {fileID: 2102442622}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (7)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108911,7 +108911,7 @@ GameObject:
   - component: {fileID: 2103728514}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (63)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109078,7 +109078,7 @@ GameObject:
   - component: {fileID: 2109196020}
   m_Layer: 0
   m_Name: Mushroom_Red_05 1 (26)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109432,7 +109432,7 @@ GameObject:
   - component: {fileID: 2118797238}
   m_Layer: 0
   m_Name: Plant_Brush_04 1 (43)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109684,7 +109684,7 @@ GameObject:
   - component: {fileID: 2126802182}
   m_Layer: 0
   m_Name: Tree_Asian_Shaped_01 1 (4)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -29,12 +29,12 @@ public class BallController : MonoBehaviour
 
         ResetGame();
 
-        ballObj = gameObject.transform.GetChild(0).gameObject;
-        Mesh mesh = ballObj.GetComponent<MeshFilter>().sharedMesh;
+        //ballObj = gameObject.transform.GetChild(0).gameObject;
+        Mesh mesh = gameObject.GetComponent<MeshFilter>().sharedMesh;
         float volume = VolumeOfMesh(mesh);
         Debug.Log("The volume of 'Ball' is " + volume + " cube units.");
 
-        ballRigi = ballObj.GetComponent<Rigidbody>();
+        ballRigi = gameObject.GetComponent<Rigidbody>();
 
         //StartCoroutine(TestChangeBallSize());
     }
@@ -70,31 +70,9 @@ public class BallController : MonoBehaviour
     {
         if (colObj.gameObject.tag == "Enemy")
         {
-            //FixedJoint fixedJoint = col.gameObject.AddComponent<FixedJoint>();
-            //fixedJoint.connectedBody = ballRigi;
-
-            //ContactPoint contact = col.contacts[0];
-            //Quaternion rot = Quaternion.FromToRotation(Vector3.up, contact.normal);
-            //Vector3 pos = contact.point;
-            //Instantiate(explosionPrefab, pos, rot);
-
-            print(gameObject.transform.childCount);
-            for (int i = 0; i < gameObject.transform.childCount - 1; i++)
-            {
-                Transform ballTran = gameObject.transform.GetChild(i).transform;
-                print(ballTran.name);
-                if (ballTran.name == "Player")
-                {
-                    Mesh meshB = ballTran.GetComponent<MeshFilter>().sharedMesh;
-                    float volumeB = VolumeOfMesh(meshB);
-                    Debug.Log("The volume of 'Ball' is " + volumeB + " cube units.");
-                    break;
-                }
-            }
-            //GameObject ball = gameObject.transform.GetChild(0).gameObject;
-            //Mesh meshB = ball.GetComponent<MeshFilter>().sharedMesh;
-            //float volumeB = VolumeOfMesh(meshB);
-            //Debug.Log("The volume of 'Ball' is " + volumeB + " cube units.");
+            Mesh meshB = gameObject.GetComponent<MeshFilter>().sharedMesh;
+            float volumeB = VolumeOfMesh(meshB);
+            Debug.Log("The volume of 'Ball' is " + volumeB + " cube units.");
 
             Mesh mesh = colObj.gameObject.GetComponent<MeshFilter>().sharedMesh;
             float volume = VolumeOfMesh(mesh);
@@ -108,6 +86,12 @@ public class BallController : MonoBehaviour
             //Vector3 ball = Vector3.Scale(transform.localScale, GetComponent<MeshFilter>().mesh.bounds.size);
             //print("Ball : " + ball);
 
+            // Change Ball Size
+            ChangeBallSize();
+
+            // Change Score
+            gm.IncreaseScore(GetName());
+
             // Change status collider
             colObj.rigidbody.useGravity = false;
             colObj.rigidbody.isKinematic = true;
@@ -115,12 +99,6 @@ public class BallController : MonoBehaviour
 
             // Add obj collider to ball
             colObj.transform.parent = transform;
-
-            // Change Score
-            gm.IncreaseScore(GetName());
-
-            // Change Ball Size
-            ChangeBallSize();
         }
     }
 
@@ -128,6 +106,7 @@ public class BallController : MonoBehaviour
     {
         int ran = Random.Range(0, 1);
         //print("Change Ball: " + ran);
+        transform.localScale = transform.localScale + new Vector3(.2f, .2f, .2f);
     }
 
     public void HoleLevelUp()

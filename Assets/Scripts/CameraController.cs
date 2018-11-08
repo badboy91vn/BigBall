@@ -11,7 +11,8 @@ public class CameraController : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        target = GameObject.FindGameObjectWithTag("MainPlayer").GetComponent<Transform>().GetChild(0).transform;
+        //target = GameObject.FindGameObjectWithTag("MainPlayer").GetComponent<Transform>().GetChild(0).transform;
+        target = GameObject.FindGameObjectWithTag("MainPlayer").GetComponent<Transform>().transform;
         ResetCamera();
         //offset = target.position - transform.position;
     }
