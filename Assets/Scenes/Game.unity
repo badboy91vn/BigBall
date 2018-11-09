@@ -4178,6 +4178,7 @@ GameObject:
   - component: {fileID: 89347046}
   - component: {fileID: 89347045}
   - component: {fileID: 89347048}
+  - component: {fileID: 89347049}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4260,6 +4261,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offset: {x: 0, y: 0, z: 0}
+--- !u!114 &89347049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 89347044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62fb89e7332bdd54cad3d135c4f08052, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HIGHSCORE: HIGHSCORE
+  CURRENTBALL: CURRENTBALL
+  COIN: COIN
 --- !u!1 &89591639
 GameObject:
   m_ObjectHideFlags: 0

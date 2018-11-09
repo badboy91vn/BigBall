@@ -31,16 +31,17 @@ public class CameraController : MonoBehaviour
         transform.position = target.position - offset;
     }
 
-    public void ChangeOffset(int curholeLevel)
+    public void ChangeOffset(Vector3 camPosIncrease)
     {
-        if (curholeLevel == 2)
-        {
-            offset = offset + new Vector3(0, -1f, .5f);
-        }
-        else
-        {
-            offset = offset + new Vector3(0, -.65f, .3f);
-        }
+        //if (curholeLevel == 2)
+        //{
+        //    offset = offset + new Vector3(0, -1f, .5f);
+        //}
+        //else
+        //{
+        //    offset = offset + new Vector3(0, -.65f, .3f);
+        //}
+        offset = offset + camPosIncrease;//new Vector3(0, -1f, .5f);
     }
 
     public void ResetCamera()

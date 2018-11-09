@@ -52,24 +52,27 @@ public class GameManager : MonoBehaviour
         //print("Point Spawn: " + pointSpawn);
 
         // Spawn Ball
+        int curBall = PlayerPrefs.GetInt(Constants.Instance.CURRENTBALL);
         for (int i = 0; i < 1; i++)
         {
-            int ranBall = 0;//Random.Range(0, ballPrefab.Length);
-            GameObject gameobj = Instantiate(ballPrefab[ranBall], Vector3.zero, Quaternion.identity) as GameObject;
-            gameobj.GetComponent<BallController>().SetName(i);
+            int ranBall = Random.Range(0, ballPrefab.Length);
+            GameObject gameobj;
 
             // Add Tag name to attach camera
             Vector3 posSpawn;
             if (i == 0)
             {
+                gameobj = Instantiate(ballPrefab[curBall], Vector3.zero, Quaternion.identity) as GameObject;
                 gameobj.tag = "MainPlayer";
-                posSpawn = new Vector3(pointSpawn.position.x, ballPrefab[ranBall].transform.position.y, pointSpawn.position.z);
+                posSpawn = new Vector3(pointSpawn.position.x, ballPrefab[curBall].transform.position.y, pointSpawn.position.z);
             }
             else
             {
+                gameobj = Instantiate(ballPrefab[ranBall], Vector3.zero, Quaternion.identity) as GameObject;
                 posSpawn = new Vector3(listPosition[i - 1].position.x, ballPrefab[ranBall].transform.position.y, listPosition[i - 1].position.z);
                 Destroy(gameobj.GetComponent<BallController>());
             }
+            gameobj.GetComponent<BallController>().SetName(i);
             gameobj.transform.position = posSpawn;
 
             listBall.Add(gameobj);
@@ -101,7 +104,19 @@ public class GameManager : MonoBehaviour
         txtCountDown.text = countDown.ToString();
         StartCoroutine(ChangeTextCountDown());
 
-        //PlayerPrefs.GetInt("HighScore", 0).ToString();
+        //PlayerPrefs.DeleteKey(Constants.Instance.HIGHSCORE);
+        //PlayerPrefs.DeleteKey(Constants.Instance.CURRENTBALL);
+        //PlayerPrefs.DeleteKey(Constants.Instance.COIN);
+
+        int highScore = PlayerPrefs.GetInt(Constants.Instance.HIGHSCORE);
+        print(highScore);
+
+        int curBall = PlayerPrefs.GetInt(Constants.Instance.CURRENTBALL);
+        print(curBall);
+
+        int coin = PlayerPrefs.GetInt(Constants.Instance.COIN);
+        print(coin);
+
         //PlayerPrefs.SetInt("HighScore", 5);
         //PlayerPrefs.DeleteKey("HighScore");
     }
@@ -178,9 +193,9 @@ public class GameManager : MonoBehaviour
 
         print("Gameover!!!");
 
-        if (PlayerPrefs.GetInt("HighScore") > score)
+        if (PlayerPrefs.GetInt(Constants.Instance.HIGHSCORE) > score)
         {
-            PlayerPrefs.SetInt("HighScore", score);
+            PlayerPrefs.SetInt(Constants.Instance.HIGHSCORE, score);
         }
     }
 }

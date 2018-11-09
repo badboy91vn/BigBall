@@ -41,7 +41,7 @@ public class BallController : MonoBehaviour
     {
         yield return new WaitForSeconds(.5f);
 
-        ChangeBallSize();
+        //ChangeBallSize();
 
         StartCoroutine(TestChangeBallSize());
     }
@@ -82,14 +82,44 @@ public class BallController : MonoBehaviour
             Vector3 objSize = colObj.gameObject.GetComponent<Collider>().bounds.size;
             float vObj = objSize.x * objSize.y * objSize.z;
 
-            print("Ball: " + vBall + " | Obj: "+ vObj + " | Size:" + (vBall / vObj)*100 );
+            float ratio = (vBall * 100) / vObj;
+            print("Ball: " + vBall + " | " + colObj.gameObject.name + ": " + vObj + " | Ratio:" + ratio);
 
+            // Check ty le phai > 50%
+            if (ratio <= 50) { return; }
+
+            Vector3 sizeIncrease = Vector3.zero;
+            Vector3 camPosIncrease = Vector3.zero;
+            if (ratio > 50 && ratio <= 60)
+            {
+                print("51 -> 60: " + colObj.gameObject.name);
+                sizeIncrease = new Vector3(.2f, .2f, .2f);
+                camPosIncrease = new Vector3(.2f, .2f, .2f);
+            }
+            else if (ratio > 60 && ratio <= 80)
+            {
+                print("61 -> 80: " + colObj.gameObject.name);
+                sizeIncrease = new Vector3(.5f, .5f, .5f);
+                camPosIncrease = new Vector3(.2f, .2f, .2f);
+            }
+            else if (ratio > 81 && ratio <= 100)
+            {
+                print("81 -> 100: " + colObj.gameObject.name);
+                sizeIncrease = new Vector3(.7f, .7f, .7f);
+                camPosIncrease = new Vector3(.2f, .2f, .2f);
+            }
+            else if (ratio > 100)
+            {
+                print("> 100: " + colObj.gameObject.name);
+                sizeIncrease = new Vector3(.9f, .9f, .9f);
+                camPosIncrease = new Vector3(.2f, .2f, .2f);
+            }
 
             // Change Ball Size
-            ChangeBallSize();
+            ChangeBallSize(sizeIncrease, camPosIncrease);
 
-            // Change Score
-            gm.IncreaseScore(GetName());
+            //// Change Score
+            //gm.IncreaseScore(GetName());
 
             // Change status collider
             colObj.rigidbody.useGravity = false;
@@ -101,11 +131,12 @@ public class BallController : MonoBehaviour
         }
     }
 
-    void ChangeBallSize()
+    void ChangeBallSize(Vector3 sizeIncrease, Vector3 camPosIncrease)
     {
         int ran = Random.Range(0, 1);
         //print("Change Ball: " + ran);
-        transform.localScale = transform.localScale + new Vector3(.2f, .2f, .2f);
+        transform.localScale = transform.localScale + sizeIncrease;
+        camController.ChangeOffset(camPosIncrease);
     }
 
     public void HoleLevelUp()
@@ -125,8 +156,8 @@ public class BallController : MonoBehaviour
         curHoleLevel++;
         print(curHoleLevel);
 
-        // Tang view camera
-        camController.ChangeOffset(curHoleLevel);
+        //// Tang view camera
+        //camController.ChangeOffset(curHoleLevel);
     }
 
     void ResetGame()

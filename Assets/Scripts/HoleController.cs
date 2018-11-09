@@ -54,7 +54,7 @@ public class HoleController : MonoBehaviour
 
         // Tang view camera
         CameraController camController = holeCam.GetComponent<CameraController>();
-        camController.ChangeOffset(curHoleLevel);
+        //camController.ChangeOffset(curHoleLevel);
     }
 
     void ResetGame()
