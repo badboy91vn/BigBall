@@ -109,13 +109,13 @@ public class GameManager : MonoBehaviour
         //PlayerPrefs.DeleteKey(Constants.Instance.COIN);
 
         int highScore = PlayerPrefs.GetInt(Constants.Instance.HIGHSCORE);
-        print(highScore);
+        print("Highscore: " + highScore);
 
         int curBall = PlayerPrefs.GetInt(Constants.Instance.CURRENTBALL);
-        print(curBall);
+        print("CurBall: " + curBall);
 
         int coin = PlayerPrefs.GetInt(Constants.Instance.COIN);
-        print(coin);
+        print("Coin: " + coin);
 
         //PlayerPrefs.SetInt("HighScore", 5);
         //PlayerPrefs.DeleteKey("HighScore");

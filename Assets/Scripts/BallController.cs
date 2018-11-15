@@ -83,7 +83,23 @@ public class BallController : MonoBehaviour
             float vObj = objSize.x * objSize.y * objSize.z;
 
             float ratio = (vBall * 100) / vObj;
-            print("Ball: " + vBall + " | " + colObj.gameObject.name + ": " + vObj + " | Ratio:" + ratio);
+            //print("Parent: " + colObj.transform.parent.name + " | " + colObj.transform.name);
+            //print("Ball: " + vBall + " | " + colObj.gameObject.name + ": " + vObj + " | Ratio:" + ratio);
+
+            string parentName = colObj.transform.parent.name;
+            if (parentName == "Cars")
+            {
+                print("Car: " + colObj.transform.name);
+            }
+            else if (parentName == "Props")
+            {
+                print("Props: "+ colObj.transform.name);
+            }
+            else
+            {
+                print("Building: "+ colObj.transform.parent.name);
+            }
+
 
             // Check ty le phai > 50%
             if (ratio <= 50) { return; }
@@ -92,25 +108,25 @@ public class BallController : MonoBehaviour
             Vector3 camPosIncrease = Vector3.zero;
             if (ratio > 50 && ratio <= 60)
             {
-                print("51 -> 60: " + colObj.gameObject.name);
+                //print("51 -> 60: " + colObj.gameObject.name);
                 sizeIncrease = new Vector3(.2f, .2f, .2f);
                 camPosIncrease = new Vector3(.2f, .2f, .2f);
             }
             else if (ratio > 60 && ratio <= 80)
             {
-                print("61 -> 80: " + colObj.gameObject.name);
+                //print("61 -> 80: " + colObj.gameObject.name);
                 sizeIncrease = new Vector3(.5f, .5f, .5f);
                 camPosIncrease = new Vector3(.2f, .2f, .2f);
             }
             else if (ratio > 81 && ratio <= 100)
             {
-                print("81 -> 100: " + colObj.gameObject.name);
+                //print("81 -> 100: " + colObj.gameObject.name);
                 sizeIncrease = new Vector3(.7f, .7f, .7f);
                 camPosIncrease = new Vector3(.2f, .2f, .2f);
             }
             else if (ratio > 100)
             {
-                print("> 100: " + colObj.gameObject.name);
+                //print("> 100: " + colObj.gameObject.name);
                 sizeIncrease = new Vector3(.9f, .9f, .9f);
                 camPosIncrease = new Vector3(.2f, .2f, .2f);
             }
