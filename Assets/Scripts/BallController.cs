@@ -76,15 +76,35 @@ public class BallController : MonoBehaviour
             //float volume = VolumeOfMesh(mesh);
             //Debug.Log("The volume of '" + colObj.gameObject.name + "' is " + volume + " units.");
 
-            Vector3 ballSize = gameObject.GetComponent<Collider>().bounds.size;
-            float vBall = 4.2f * Mathf.Pow((ballSize.y / 2), 3);
 
-            Vector3 objSize = colObj.gameObject.GetComponent<Collider>().bounds.size;
-            float vObj = objSize.x * objSize.y * objSize.z;
+            // get the volume from the bounds
+            Vector3 colObjSize = colObj.gameObject.GetComponent<Collider>().bounds.size;
+            var addVolume = colObjSize.x * colObjSize.y * colObjSize.z;
+            // get the current radius
+            var radius = transform.localScale.y;
+            // now figure volume of the sphere
+            var ballVol = 4.19f * radius * radius * radius;
+            // now add the mass of the cube
+            ballVol += addVolume;
+            // now reverse the calculation for the radius from the volume
+            radius = Mathf.Sqrt(ballVol / (4 / 3 * Mathf.PI));
+
+            //print("Radius: " + radius + " | Add: " + Vector3.one * radius);
+            //transform.localScale = Vector3.one * radius;
+
+
+            float ballSize = gameObject.GetComponent<Renderer>().bounds.size.y;
+            float vBall = 4.19f * ballSize * ballSize * ballSize;
+
+            float objSize = colObj.gameObject.GetComponent<Renderer>().bounds.size.y;
+            float vObj = 4.19f * objSize * objSize * objSize; //objSize.x * objSize.y * objSize.z;
 
             float ratio = (vBall * 100) / vObj;
-            //print("Parent: " + colObj.transform.parent.name + " | " + colObj.transform.name);
+            print("BallY: " + ballSize + " | ObjY: " + objSize);
             //print("Ball: " + vBall + " | " + colObj.gameObject.name + ": " + vObj + " | Ratio:" + ratio);
+
+            // Check ty le phai > 50%
+            if (ratio <= 50) { return; }
 
             string parentName = colObj.transform.parent.name;
             if (parentName == "Cars")
@@ -93,16 +113,12 @@ public class BallController : MonoBehaviour
             }
             else if (parentName == "Props")
             {
-                print("Props: "+ colObj.transform.name);
+                print("Props: " + colObj.transform.name);
             }
             else
             {
-                print("Building: "+ colObj.transform.parent.name);
+                print("Building: " + colObj.transform.parent.name);
             }
-
-
-            // Check ty le phai > 50%
-            if (ratio <= 50) { return; }
 
             Vector3 sizeIncrease = Vector3.zero;
             Vector3 camPosIncrease = Vector3.zero;
@@ -131,19 +147,19 @@ public class BallController : MonoBehaviour
                 camPosIncrease = new Vector3(.2f, .2f, .2f);
             }
 
-            // Change Ball Size
-            ChangeBallSize(sizeIncrease, camPosIncrease);
+            //// Change Ball Size
+            //ChangeBallSize(sizeIncrease, camPosIncrease);
 
             //// Change Score
             //gm.IncreaseScore(GetName());
 
-            // Change status collider
-            colObj.rigidbody.useGravity = false;
-            colObj.rigidbody.isKinematic = true;
-            Destroy(colObj.collider);
+            //// Change status collider
+            //colObj.rigidbody.useGravity = false;
+            //colObj.rigidbody.isKinematic = true;
+            //Destroy(colObj.collider);
 
-            // Add obj collider to ball
-            colObj.transform.parent = transform;
+            //// Add obj collider to ball
+            //colObj.transform.parent = transform;
         }
     }
 
