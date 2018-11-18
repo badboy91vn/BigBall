@@ -76,32 +76,18 @@ public class BallController : MonoBehaviour
             //float volume = VolumeOfMesh(mesh);
             //Debug.Log("The volume of '" + colObj.gameObject.name + "' is " + volume + " units.");
 
-
-            // get the volume from the bounds
-            Vector3 colObjSize = colObj.gameObject.GetComponent<Collider>().bounds.size;
-            var addVolume = colObjSize.x * colObjSize.y * colObjSize.z;
-            // get the current radius
-            var radius = transform.localScale.y;
-            // now figure volume of the sphere
-            var ballVol = 4.19f * radius * radius * radius;
-            // now add the mass of the cube
-            ballVol += addVolume;
-            // now reverse the calculation for the radius from the volume
-            radius = Mathf.Sqrt(ballVol / (4 / 3 * Mathf.PI));
-
-            //print("Radius: " + radius + " | Add: " + Vector3.one * radius);
-            //transform.localScale = Vector3.one * radius;
-
-
-            float ballSize = gameObject.GetComponent<Renderer>().bounds.size.y;
+            float ballSize = gameObject.GetComponent<Collider>().bounds.size.y;
             float vBall = 4.19f * ballSize * ballSize * ballSize;
-
-            float objSize = colObj.gameObject.GetComponent<Renderer>().bounds.size.y;
-            float vObj = 4.19f * objSize * objSize * objSize; //objSize.x * objSize.y * objSize.z;
+			
+            Vector3 objScale = colObj.transform.localScale;
+            print("objScale: " + objScale);
+            Vector3 objSize = Vector3.Scale(colObj.gameObject.GetComponent<BoxCollider>().size, objScale);
+            print("objSize: " + objSize);
+            float vObj = objSize.x * objSize.y * objSize.z;
 
             float ratio = (vBall * 100) / vObj;
-            print("BallY: " + ballSize + " | ObjY: " + objSize);
-            //print("Ball: " + vBall + " | " + colObj.gameObject.name + ": " + vObj + " | Ratio:" + ratio);
+            //print("BallY: " + ballSize + " | ObjY: " + vObj);
+            print("Ball: " + vBall + " | " + colObj.gameObject.name + ": " + vObj + " | Ratio: " + ratio);
 
             // Check ty le phai > 50%
             if (ratio <= 50) { return; }
@@ -120,46 +106,47 @@ public class BallController : MonoBehaviour
                 print("Building: " + colObj.transform.parent.name);
             }
 
-            Vector3 sizeIncrease = Vector3.zero;
-            Vector3 camPosIncrease = Vector3.zero;
-            if (ratio > 50 && ratio <= 60)
-            {
-                //print("51 -> 60: " + colObj.gameObject.name);
-                sizeIncrease = new Vector3(.2f, .2f, .2f);
-                camPosIncrease = new Vector3(.2f, .2f, .2f);
-            }
-            else if (ratio > 60 && ratio <= 80)
-            {
-                //print("61 -> 80: " + colObj.gameObject.name);
-                sizeIncrease = new Vector3(.5f, .5f, .5f);
-                camPosIncrease = new Vector3(.2f, .2f, .2f);
-            }
-            else if (ratio > 81 && ratio <= 100)
-            {
-                //print("81 -> 100: " + colObj.gameObject.name);
-                sizeIncrease = new Vector3(.7f, .7f, .7f);
-                camPosIncrease = new Vector3(.2f, .2f, .2f);
-            }
-            else if (ratio > 100)
-            {
-                //print("> 100: " + colObj.gameObject.name);
-                sizeIncrease = new Vector3(.9f, .9f, .9f);
-                camPosIncrease = new Vector3(.2f, .2f, .2f);
-            }
 
+            //Vector3 sizeIncrease = Vector3.zero;
+            //Vector3 camPosIncrease = Vector3.zero;
+            //if (ratio > 50 && ratio <= 60)
+            //{
+            //    //print("51 -> 60: " + colObj.gameObject.name);
+            //    sizeIncrease = new Vector3(.2f, .2f, .2f);
+            //    camPosIncrease = new Vector3(.2f, .2f, .2f);
+            //}
+            //else if (ratio > 60 && ratio <= 80)
+            //{
+            //    //print("61 -> 80: " + colObj.gameObject.name);
+            //    sizeIncrease = new Vector3(.5f, .5f, .5f);
+            //    camPosIncrease = new Vector3(.2f, .2f, .2f);
+            //}
+            //else if (ratio > 81 && ratio <= 100)
+            //{
+            //    //print("81 -> 100: " + colObj.gameObject.name);
+            //    sizeIncrease = new Vector3(.7f, .7f, .7f);
+            //    camPosIncrease = new Vector3(.2f, .2f, .2f);
+            //}
+            //else if (ratio > 100)
+            //{
+            //    //print("> 100: " + colObj.gameObject.name);
+            //    sizeIncrease = new Vector3(.9f, .9f, .9f);
+            //    camPosIncrease = new Vector3(.2f, .2f, .2f);
+            //}
             //// Change Ball Size
             //ChangeBallSize(sizeIncrease, camPosIncrease);
+
 
             //// Change Score
             //gm.IncreaseScore(GetName());
 
-            //// Change status collider
-            //colObj.rigidbody.useGravity = false;
-            //colObj.rigidbody.isKinematic = true;
-            //Destroy(colObj.collider);
+            // Change status collider
+            colObj.rigidbody.useGravity = false;
+            colObj.rigidbody.isKinematic = true;
+            Destroy(colObj.collider);
 
-            //// Add obj collider to ball
-            //colObj.transform.parent = transform;
+            // Add obj collider to ball
+            colObj.transform.parent = transform;
         }
     }
 
@@ -197,6 +184,10 @@ public class BallController : MonoBehaviour
         curHoleLevel = 1;
         //transform.position = new Vector3(0, .08f, 0);
         //transform.localScale = new Vector3(.2f, 1, .2f);
+
+        //Vector3 sizeIncrease = new Vector3(10, 10, 10);
+        //Vector3 camPosIncrease = new Vector3(0, -10, 12);
+        //ChangeBallSize(sizeIncrease, camPosIncrease);
 
         //camController.ResetCamera();
     }
