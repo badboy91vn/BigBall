@@ -78,11 +78,11 @@ public class BallController : MonoBehaviour
 
             float ballSize = gameObject.GetComponent<Collider>().bounds.size.y;
             float vBall = 4.19f * ballSize * ballSize * ballSize;
-			
+
             Vector3 objScale = colObj.transform.localScale;
-            print("objScale: " + objScale);
+            //print("objScale: " + objScale);
             Vector3 objSize = Vector3.Scale(colObj.gameObject.GetComponent<BoxCollider>().size, objScale);
-            print("objSize: " + objSize);
+            //print("objSize: " + objSize);
             float vObj = objSize.x * objSize.y * objSize.z;
 
             float ratio = (vBall * 100) / vObj;
@@ -90,51 +90,31 @@ public class BallController : MonoBehaviour
             print("Ball: " + vBall + " | " + colObj.gameObject.name + ": " + vObj + " | Ratio: " + ratio);
 
             // Check ty le phai > 50%
-            if (ratio <= 50) { return; }
+            if (ratio <= 400) { return; }
 
+            Vector3 sizeIncrease = Vector3.zero;
+            Vector3 camPosIncrease = Vector3.zero;
             string parentName = colObj.transform.parent.name;
-            if (parentName == "Cars")
-            {
-                print("Car: " + colObj.transform.name);
-            }
-            else if (parentName == "Props")
+            if (parentName == "Props")
             {
                 print("Props: " + colObj.transform.name);
+                sizeIncrease = new Vector3(.9f, .9f, .9f);
+                camPosIncrease = new Vector3(.2f, .2f, .2f);
+            }
+            else if(parentName == "Cars")
+            {
+                print("Car: " + colObj.transform.name);
+                //sizeIncrease = new Vector3(.9f, .9f, .9f);
+                //camPosIncrease = new Vector3(.2f, .2f, .2f);
             }
             else
             {
                 print("Building: " + colObj.transform.parent.name);
+                //sizeIncrease = new Vector3(.9f, .9f, .9f);
+                //camPosIncrease = new Vector3(.2f, .2f, .2f);
             }
-
-
-            //Vector3 sizeIncrease = Vector3.zero;
-            //Vector3 camPosIncrease = Vector3.zero;
-            //if (ratio > 50 && ratio <= 60)
-            //{
-            //    //print("51 -> 60: " + colObj.gameObject.name);
-            //    sizeIncrease = new Vector3(.2f, .2f, .2f);
-            //    camPosIncrease = new Vector3(.2f, .2f, .2f);
-            //}
-            //else if (ratio > 60 && ratio <= 80)
-            //{
-            //    //print("61 -> 80: " + colObj.gameObject.name);
-            //    sizeIncrease = new Vector3(.5f, .5f, .5f);
-            //    camPosIncrease = new Vector3(.2f, .2f, .2f);
-            //}
-            //else if (ratio > 81 && ratio <= 100)
-            //{
-            //    //print("81 -> 100: " + colObj.gameObject.name);
-            //    sizeIncrease = new Vector3(.7f, .7f, .7f);
-            //    camPosIncrease = new Vector3(.2f, .2f, .2f);
-            //}
-            //else if (ratio > 100)
-            //{
-            //    //print("> 100: " + colObj.gameObject.name);
-            //    sizeIncrease = new Vector3(.9f, .9f, .9f);
-            //    camPosIncrease = new Vector3(.2f, .2f, .2f);
-            //}
-            //// Change Ball Size
-            //ChangeBallSize(sizeIncrease, camPosIncrease);
+            // Change Ball Size
+            ChangeBallSize(sizeIncrease, camPosIncrease);
 
 
             //// Change Score
@@ -185,8 +165,8 @@ public class BallController : MonoBehaviour
         //transform.position = new Vector3(0, .08f, 0);
         //transform.localScale = new Vector3(.2f, 1, .2f);
 
-        //Vector3 sizeIncrease = new Vector3(10, 10, 10);
-        //Vector3 camPosIncrease = new Vector3(0, -10, 12);
+        //Vector3 sizeIncrease = new Vector3(17.4f, 17.4f, 17.4f);
+        //Vector3 camPosIncrease = new Vector3(0, -60, 65);
         //ChangeBallSize(sizeIncrease, camPosIncrease);
 
         //camController.ResetCamera();
@@ -196,12 +176,10 @@ public class BallController : MonoBehaviour
     {
         holeName = objName;
     }
-
     public int GetName()
     {
         return holeName;
     }
-
     public int GetCurHoleLevel()
     {
         return curHoleLevel;

@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44302812, g: 0.49222243, b: 0.57194716, a: 1}
+  m_IndirectSpecularColor: {r: 0.44302782, g: 0.49222213, b: 0.57194674, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2720,7 +2720,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 100
+  far clip plane: 250
   field of view: 50
   orthographic: 0
   orthographic size: 5
@@ -20057,6 +20057,23 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 627623845}
   m_Mesh: {fileID: 4300002, guid: 53da3de3d58bba643aee4464c795a8b5, type: 3}
+--- !u!1 &628532182 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1337864484396150, guid: af83c39cee3c56241b33c3ef1d09a18d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1662800071}
+--- !u!65 &628532183
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 628532182}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 40.9, z: 71.10197}
+  m_Center: {x: 0, y: -0.2, z: 35.55098}
 --- !u!1001 &629614041
 Prefab:
   m_ObjectHideFlags: 0
@@ -34703,6 +34720,11 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 65263268252503736, guid: 230ab9b4b40bde649984645b0cfa0c7f,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 47.4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 230ab9b4b40bde649984645b0cfa0c7f, type: 2}
   m_IsPrefabAsset: 0
@@ -46052,6 +46074,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 90
   m_CollisionDetection: 0
+--- !u!1 &1461052480 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1523532440802824, guid: 230ab9b4b40bde649984645b0cfa0c7f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1125181853}
+--- !u!65 &1461052481
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1461052480}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 100, y: 40.9, z: 71.10197}
+  m_Center: {x: 0, y: -0.2, z: 35.55098}
 --- !u!1 &1468470178
 GameObject:
   m_ObjectHideFlags: 0
@@ -52807,6 +52846,11 @@ Prefab:
     - target: {fileID: 1133455653009158, guid: af83c39cee3c56241b33c3ef1d09a18d, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 65851743619723880, guid: af83c39cee3c56241b33c3ef1d09a18d,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 47.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af83c39cee3c56241b33c3ef1d09a18d, type: 2}
