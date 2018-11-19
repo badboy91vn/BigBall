@@ -98,20 +98,20 @@ public class BallController : MonoBehaviour
             if (parentName == "Props")
             {
                 print("Props: " + colObj.transform.name);
-                sizeIncrease = new Vector3(.9f, .9f, .9f);
-                camPosIncrease = new Vector3(.2f, .2f, .2f);
+                sizeIncrease = new Vector3(0.1f, 0.1f, 0.1f);
+                camPosIncrease = new Vector3(0f, -0.2f, 0.2f);
             }
             else if(parentName == "Cars")
             {
                 print("Car: " + colObj.transform.name);
-                //sizeIncrease = new Vector3(.9f, .9f, .9f);
-                //camPosIncrease = new Vector3(.2f, .2f, .2f);
+                sizeIncrease = new Vector3(0.15f, 0.15f, 0.15f);
+                camPosIncrease = new Vector3(0f, -0.25f, 0.25f);
             }
             else
             {
                 print("Building: " + colObj.transform.parent.name);
-                //sizeIncrease = new Vector3(.9f, .9f, .9f);
-                //camPosIncrease = new Vector3(.2f, .2f, .2f);
+                sizeIncrease = new Vector3(.02f, .02f, .02f);
+                camPosIncrease = new Vector3(0f, -0.3f, 0.3f);
             }
             // Change Ball Size
             ChangeBallSize(sizeIncrease, camPosIncrease);
