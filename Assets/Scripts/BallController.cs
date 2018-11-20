@@ -92,6 +92,15 @@ public class BallController : MonoBehaviour
             // Check ty le phai > 50%
             if (ratio <= 400) { return; }
 
+            // Get all Child of Ball
+            Transform[] children = new Transform[ transform.childCount ];
+            int i = 0;
+            foreach (Transform T in transform) { 
+                children[i++] = T;
+            }
+            transform.DetachChildren(); // Detach all children
+
+            // Scale Ball
             Vector3 sizeIncrease = Vector3.zero;
             Vector3 camPosIncrease = Vector3.zero;
             string parentName = colObj.transform.parent.name;
@@ -110,12 +119,17 @@ public class BallController : MonoBehaviour
             else
             {
                 print("Building: " + colObj.transform.parent.name);
-                sizeIncrease = new Vector3(.02f, .02f, .02f);
+                sizeIncrease = new Vector3(0.2f, 0.2f, 0.2f);
                 camPosIncrease = new Vector3(0f, -0.3f, 0.3f);
             }
             // Change Ball Size
             ChangeBallSize(sizeIncrease, camPosIncrease);
 
+            // Re-attach child to ball
+            foreach (Transform T in children)
+            {
+                T.parent = transform;
+            }
 
             //// Change Score
             //gm.IncreaseScore(GetName());
@@ -132,8 +146,11 @@ public class BallController : MonoBehaviour
 
     void ChangeBallSize(Vector3 sizeIncrease, Vector3 camPosIncrease)
     {
-        int ran = Random.Range(0, 1);
+        //int ran = Random.Range(0, 1);
         //print("Change Ball: " + ran);
+
+        if (transform.localScale.x >= 18) return;
+
         transform.localScale = transform.localScale + sizeIncrease;
         camController.ChangeOffset(camPosIncrease);
     }
